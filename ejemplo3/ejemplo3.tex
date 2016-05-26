@@ -1,0 +1,229 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[spanish]{babel}
+\parindent=50cm
+%\parskip=0.5cm
+%\usepackage{anysize} para cambiar márgenes de la página
+%\usepackage{geometry} permite modificar la disposición de todos los elementos de la página.
+
+
+
+\begin{document}%inicio entorno
+  \title{Articulo de prueba}
+
+  \author{Antonio Guzmán}
+
+  \date{25/04/16}
+\maketitle% Sin esto NO SE PUEDE GENERAR EL TITULO CON LOS DATOS DE ARRIBA
+\tableofcontents %indice
+%%%%%%%SECCIONES Y PARTES%%%%%%%%%%%%%%%%
+\section{Prólogo}
+Esto es un texto normal en el propio body, seguido de algo de relleno sin contenido intelectual real (salvo el meramente textual)
+ para hacer un poco de bulto y que no se vea tan soso ni tan cortito.
+\part{Comando part y section} %apartado principal
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\section{Una sección}%seccion
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\subsection{Una subsección dentro de la sección}%subseccion
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\section{Otra sección}
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\section{Y otra sección}
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\begin{quote}%cita
+
+Y esto es un texto en un entorno de quote, seguido de algo de relleno sin contenido intelectual real (salvo el meramente textual)
+ para hacer un poco de bulto y que no se vea tan soso ni tan cortito.
+
+\end{quote}
+
+\begin{flushright}%alineado derecha (flushleft para la izq)
+
+Y esto otro es un texto en un entorno flushleft, seguido de algo de relleno sin contenido intelectual real (salvo el meramente textual)
+ para hacer un poco de bulto y que no se vea tan soso ni tan cortito.
+
+\end{flushright}
+%%%%MATEMATICAS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{formulas matemáticas}
+La ecuacion mas famosa de la historia de la fisica probaablemente sea la de $E=m*c^2$, de donde se deduce que $c=\sqrt{E/m}$.
+\section{Display math}
+
+\begin{displaymath}
+\sum_{0\le i\le m\\0<j<n}P(i, j)% forma de crear un sumatorio
+\end{displaymath}
+
+Hay muchos simbolos y toda un compleja sintaxis para escribir matematicas en LaTeX
+
+\begin{equation}%ecuacion
+\label{miecuacion}% Usado para hacer referencias en el documento (1)
+f(x)=\sqrt{g'(x)dx}+Z
+\end{equation}
+
+La ecuacion que se puede ver en\ref{miecuacion} es completamente inventada y no tiene sentido fisico%/ref se asocia con la referencia 1
+
+\part{Acentos y caracteres especiales}
+\'a \'e
+\section{la e\~ne}
+se escribe \begin{quote}'\~n' ¿esto que es:AHH son los puntos suspensivos\ldots?
+\end{quote}
+
+\section{Caracteres especiales}
+\label{sec:caracteres especiales}
+Los carácteres especiales deben ir precedidos de:  no debemos poner \textbackslash\ \textbackslash\ % asi se declara \ con \textbackslash\
+porque eso se usa para dar un enter
+\{, \},\$,\% %asi se representan caracteres especiales
+%%%%%%%%%%%%%%%TIPOS DE LETRA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{Tipos de letra}
+Cuando introducimos en el texto uno de estos comandos, modificará todo el texto subsiguiente, hasta que llegue a otro comando que vuelva a cambiarlo\\
+Son los siguientes tipos:\\
+\section{Para textos cortos}
+
+
+{\rm Roman} (redonda seriff, la tipografía normal).//
+\bf Boldface (negrita)
+
+\em Italic (cursiva).
+
+\bf Boldface (negrita).
+
+\sl Slanted (inclinada).
+
+\sf Sans Serif (sin seriff, de 'palo seco').
+
+\sc Small Caps (todas mayúsculas, solo cambia el tamaño).
+
+\tt Typewriter (De paso 'fijo'  o monotype).%%%%%%%%%%%%%%%%%% Y ESTA
+\rm Roman% esta es la ultima tipografia que se va a aplicar al resto del documento
+ \section{Para textos largos}
+
+ \begin{rm}
+ Roman (redonda seriff, la tipografía normal). Usando un entorno, que es más cómodo en estas circunstancias.
+ \end{rm} \\
+
+\begin{em}
+Italic (cursiva). Usando un entorno, que es más cómodo en estas circunstancias.
+\end{em}
+
+\section{Tamaños de letra}
+\begin{rm}
+%Tamaños de letra disponible  \tiny, \scriptsize, \footnotesize, \small, \normalsize, \large, \Large, \LARGE, \huge y \Huge.%
+\scriptsize\ texto peque
+\itshape\ texto pequeño en cursiva.
+\end{rm}
+
+\begin{Large}
+
+Texto en largue y, por tanto, grandote
+
+\end{Large}
+
+\part{Unidades de medida}
+
+mm (Milímetro) 1/1000 de metro en el sistema métrico decimal.
+cm (Centímetro) 1/100 de metro en el sistema métrico decimal.
+
+in (Pulgada) Equivalente a 2.54 cm. Muy popular en el ámbito anglosajón.
+
+pt (Punto) Equivale a 0.351 mm y es una de las más clásicas unidades de medida tipográficas.
+pc (Pica) 12 pt
+
+bp (Big point) a 0.353 mm o 1/72 pulgadas (se le conoce como Punto Postscript)
+dd (Didot Point) Antigua medida tipográfica francesa de 0.376 mm
+cc (Cicero) 12 dd
+
+sp (Scaled point) 1/65536 de pt ¡No es una errata!
+
+Además de todas las anteriores, que son absolutas y su valor no cambia nunca, también hay un juego de unidades relativas, que dependen del tamaño de la tipografía que se esté usando:
+
+ex (Equis) Altura de la letra “x” de la letra que se esté usando en un momento dado.
+em (Eme) Anchura de la letra “M” de la letra que se esté usando en un momento dado.
+mu (mu) 1/18 de em.
+
+\part{Listas en Latex}
+\section{listas con enumeración}
+\begin{enumerate}
+ \item Primer elemento de la lista
+ \begin{enumerate}
+   \item Subelemento de la primera lista
+ \end{enumerate}
+ \item Segundo elemento de la lista
+ \item Tercer elemento de la lista
+\end{enumerate}
+\section{listas sin enumeración}
+\begin{itemize}
+ \item Primer elemento de la lista
+ \begin{itemize}
+   \item Subelemento de la primera lista
+ \end{itemize}
+ \item Segundo elemento de la lista
+ \item Tercer elemento de la lista
+\end{itemize}% ademas de ambos tipos de listas se pueden combinar enumerados con no enumerados
+\part{Tablas}
+\section{Tablas no flotantes}
+\begin{tabular}{|c|c|c|}
+\hline
+A & B & C\\
+\hline\hline
+foo & bar & baz\\
+\hline
+zab & rab & oof\\
+\hline
+\end{tabular}
+\\
+\begin{tabular}{|c|c|}
+\hline% linea de tabulación
+Primera celda & Segunda celda \\
+\hline
+  Abajo a la izquierda & Abajo a la derecha \\
+\hline
+\end{tabular}
+\section{Tablas flotantes}
+
+\begin{table}%% esto indica que es tabla flotante
+\begin{tabular}{|c||c|}
+\hline
+Primera celda & Segunda celda \\
+\hline
+Abajo a la izquierda & Abajo a la derecha \\
+\hline
+\end{tabular}
+\end{table}
+\part{Cajas}
+
+\section{Sin marco}
+\mbox{este texto NO está enmarcado}
+\makebox[9cm][r]{Caja de 9 centímetros con texo a la derecha}%mas control
+
+\section{Con marco}
+\fbox{este texto Sí está enmarcado}
+\framebox[9cm][s]{Caja de 9 centímetros con texo justificado}%mas control
+\\
+\framebox[0.5\linewidth][c]{Caja de 1/2 del ancho total}%linewidth ancho total de la linea
+
+\section{Cajas con párrafos}
+
+\begin{minipage}[b]{0.5\linewidth}% texto posicionado en el fondo de la minipage [b]
+Una caja con minipage
+\end{minipage}
+ \part{Establecer márgenes}
+ Para establecer márgenes necesitamos el paquete anysize y la orden \textbackslash\ marginsize (descomentar para usarlo)
+% \marginsize{2cm}{2cm}{2cm}{2cm}%\marginsize{izquierda}{derecha}{arriba}{abajo}
+\part{Identado y espacio entre párrafos}
+Parident: para identado
+Parskip:espacio entre párrafos
+\section{FIN:continua en ejemplo 5}
+
+
+\end{document}%fin entorno

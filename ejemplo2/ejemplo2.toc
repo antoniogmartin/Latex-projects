@@ -1,0 +1,9 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Pr\IeC {\'o}logo}{1}
+\contentsline {part}{I\hspace {1em}Apartado Principal}{1}
+\contentsline {section}{\numberline {2}Una secci\IeC {\'o}n}{2}
+\contentsline {subsection}{\numberline {2.1}Una subsecci\IeC {\'o}n dentro de la secci\IeC {\'o}n}{2}
+\contentsline {section}{\numberline {3}Otra secci\IeC {\'o}n}{2}
+\contentsline {section}{\numberline {4}Y otra secci\IeC {\'o}n}{2}
+\contentsline {part}{II\hspace {1em}formulas matem\IeC {\'a}ticas}{2}
+\contentsline {section}{\numberline {5}Display math}{2}

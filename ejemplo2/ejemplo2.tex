@@ -1,0 +1,75 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[spanish]{babel}
+
+
+
+
+
+\begin{document}%inicio entorno
+  \title{Articulo de prueba}
+
+  \author{Antonio Guzmán}
+
+  \date{25/04/16}
+\maketitle% Sin esto NO SE PUEDE GENERAR EL TITULO CON LOS DATOS DE ARRIBA
+\tableofcontents %indice
+\section{Prólogo}
+Esto es un texto normal en el propio body, seguido de algo de relleno sin contenido intelectual real (salvo el meramente textual)
+ para hacer un poco de bulto y que no se vea tan soso ni tan cortito.
+\part{Apartado Principal} %apartado principal
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\section{Una sección}%seccion
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\subsection{Una subsección dentro de la sección}%subseccion
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\section{Otra sección}
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\section{Y otra sección}
+
+Texto de relleno bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+\begin{quote}%cita
+
+Y esto es un texto en un entorno de quote, seguido de algo de relleno sin contenido intelectual real (salvo el meramente textual)
+ para hacer un poco de bulto y que no se vea tan soso ni tan cortito.
+
+\end{quote}
+
+\begin{flushright}%alineado derecha (flushleft para la izq)
+
+Y esto otro es un texto en un entorno flushleft, seguido de algo de relleno sin contenido intelectual real (salvo el meramente textual)
+ para hacer un poco de bulto y que no se vea tan soso ni tan cortito.
+
+\end{flushright}
+
+\part{formulas matemáticas}
+La ecuacion mas famosa de la historia de la fisica probaablemente sea la de $E=m*c^2$, de donde se deduce que $c=\sqrt{E/m}$.
+\section{Display math}
+
+\begin{displaymath}
+\sum_{0\le i\le m\\0<j<n}P(i, j)% forma de crear un sumatorio
+\end{displaymath}
+
+Hay muchos simbolos y toda un compleja sintaxis para escribir matematicas en LaTeX
+
+\begin{equation}%ecuacion
+\label{miecuacion}% Usado para hacer referencias en el documento (1)
+f(x)=\sqrt{g'(x)dx}+Z
+\end{equation}
+
+La ecuacion que se puede ver en\ref{miecuacion} es completamente inventada y no tiene sentido fisico%/ref se asocia con la referencia 1
+
+
+
+\end{document}%fin entorno

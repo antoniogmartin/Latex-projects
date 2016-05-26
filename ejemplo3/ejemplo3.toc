@@ -1,0 +1,30 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Pr\IeC {\'o}logo}{2}
+\contentsline {part}{I\hspace {1em}Comando part y section}{2}
+\contentsline {section}{\numberline {2}Una secci\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {2.1}Una subsecci\IeC {\'o}n dentro de la secci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {3}Otra secci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {4}Y otra secci\IeC {\'o}n}{3}
+\contentsline {part}{II\hspace {1em}formulas matem\IeC {\'a}ticas}{3}
+\contentsline {section}{\numberline {5}Display math}{4}
+\contentsline {part}{III\hspace {1em}Acentos y caracteres especiales}{4}
+\contentsline {section}{\numberline {6}la e\~ne}{4}
+\contentsline {section}{\numberline {7}Caracteres especiales}{4}
+\contentsline {part}{IV\hspace {1em}Tipos de letra}{5}
+\contentsline {section}{\numberline {8}Para textos cortos}{5}
+\contentsline {section}{\numberline {9}Para textos largos}{5}
+\contentsline {section}{\numberline {10}Tama\IeC {\~n}os de letra}{5}
+\contentsline {part}{V\hspace {1em}Unidades de medida}{6}
+\contentsline {part}{VI\hspace {1em}Listas en Latex}{6}
+\contentsline {section}{\numberline {11}listas con enumeraci\IeC {\'o}n}{6}
+\contentsline {section}{\numberline {12}listas sin enumeraci\IeC {\'o}n}{6}
+\contentsline {part}{VII\hspace {1em}Tablas}{7}
+\contentsline {section}{\numberline {13}Tablas no flotantes}{7}
+\contentsline {section}{\numberline {14}Tablas flotantes}{7}
+\contentsline {part}{VIII\hspace {1em}Cajas}{7}
+\contentsline {section}{\numberline {15}Sin marco}{7}
+\contentsline {section}{\numberline {16}Con marco}{7}
+\contentsline {section}{\numberline {17}Cajas con p\IeC {\'a}rrafos}{8}
+\contentsline {part}{IX\hspace {1em}Establecer m\IeC {\'a}rgenes}{8}
+\contentsline {part}{X\hspace {1em}Identado y espacio entre p\IeC {\'a}rrafos}{8}
+\contentsline {section}{\numberline {18}FIN:continua en ejemplo 5}{8}

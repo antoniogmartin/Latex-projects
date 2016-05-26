@@ -1,0 +1,4 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Tablas}{1}
+\contentsline {section}{\numberline {1}Tablas no flotantes}{1}
+\contentsline {section}{\numberline {2}Tablas flotantes}{1}
